@@ -10,4 +10,9 @@ public class VolleyballCoach implements Coach {
 		return "100 sets";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
+
 }
