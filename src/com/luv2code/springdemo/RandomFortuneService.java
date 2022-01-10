@@ -8,11 +8,7 @@ import org.springframework.stereotype.Component;
 public class RandomFortuneService implements FortuneService {
 
 	//create array of string 
-	String[] data = {
-			"Good",
-			"Fine",
-			"Super"
-	};
+	String[] data;
 	
 	Random random = new Random();
 	
